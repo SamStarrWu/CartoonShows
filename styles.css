@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: rgb(45, 15, 101);
+    margin: 0px;
+    font-family: "Nerko One", cursive;
+    margin-bottom: 100px;
+
+}
+
+header {
+    border-bottom: solid 3px rgb(83, 75, 219);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(83, 75, 219);
+}
+
+.chamada {
+    background: rgb(134, 68, 237);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+
+
+
+}
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 30px;
+}
+
+h2{
+   border-top: solid 3px rgb(83, 75, 219);
+   margin: 0px;
+   color: rgb(83, 75, 219);
+   background-color: white;
+}
+
+.categoria-vidio{
+    background-color: rgb( 189, 147, 255);
+     display: flex;
+     overflow-x: auto;
+     gap: 5px;
+}
+
+.categoria-vidio img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-vidio img:hover{
+    opacity: 2.0;
+    border: 5px solid blue
+
+}
